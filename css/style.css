@@ -42,3 +42,21 @@
 .card-img-top{
     height: 20px;
 }
+head #btn{
+    text-align: center;
+}
+.overlay { 
+        color:#fff;
+        position:absolute;
+        z-index:12;
+        top:53%;
+        left:0;
+        width:100%;
+        text-align:center;
+}
+#btn{
+    width: 200px;
+    height: 50px;
+}
+
+  
