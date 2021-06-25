@@ -28,3 +28,11 @@
 #img3{
     height: 500px;
 }
+.carousel-inner{
+    margin-left: 1px;
+    margin-right: 1px;
+    height: 500px;
+}
+#Menu{
+    margin-left: 15px;
+}
