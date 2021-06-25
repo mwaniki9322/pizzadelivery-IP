@@ -1,0 +1,11 @@
+#navbar{
+    height: 80px;
+}
+#logo{
+    width: 60px;
+    margin-left: 20px;
+}
+.nav-brand h5{
+    color: white;
+    font-weight: bold;
+}
