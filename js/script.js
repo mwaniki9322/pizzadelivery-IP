@@ -56,8 +56,29 @@ else if
 (size==='Large'){
     toppingsprice+=120;
 }
+if(size==='Small'){
+    toppingsprice +=70;
+    }
+    else if
+    (size==='Medium'){
+        toppingsprice +=100;
+    }
+    else if
+    (size==='Large'){
+        toppingsprice+=120;
+}
+//crust price
+if(size==='Small'){
+    crustprice+=100;
+    }
+    else if
+    (size==='Medium'){
+        crustprice +=150;
+    }
+    else if
+    (size==='Large'){
+        crustprice+=200;
+}
 
-alert(toppingsprice)
-
-    })
-})
+    });
+});
