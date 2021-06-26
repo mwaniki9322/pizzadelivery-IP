@@ -143,7 +143,7 @@
     
                 <div class="form-group">
                  <label for="size">Size</label><br>
-                 <select id="size" class="form-control">
+                 <select id="size" class="form-control" required>
                   <option>--</option>
                   <option>Small</option>
                   <option>Medium</option>
@@ -153,8 +153,8 @@
     
     
                  <div class="form-group">
-                  <label for="flavour">Size</label><br>
-                  <select id="flavour" class="form-control">
+                  <label for="flavour">Flavour</label><br>
+                  <select id="flavour" class="form-control" required>
                    <option>--</option>
                    <option>BBQ Chicken</option>
                    <option>Peri Peri Chicken</option>
@@ -164,7 +164,7 @@
     
                 <div class="form-group">
                   <label for="crust">Crust</label>
-                  <select id="crust" class="form-control">
+                  <select id="crust" class="form-control" required>
                     <option>--</option>
                     <option>Crispy</option>
                     <option>Stuffed</option>
@@ -175,7 +175,7 @@
                 
                 <div class="form-group">
                   <label for="toppings">Toppings</label><br>
-                  <select id="toppings" class="form-control">
+                  <select id="toppings" class="form-control" required>
                     <option>--</option>
                     <option>Black olives</option>
                     <option>Anchovies</option>
@@ -185,7 +185,7 @@
     
                 <div class="form-group">
                   <label for="quantity">Quantity</label>
-                  <input type="number" id="quantity" min="1" max="10" class="form-control">
+                  <input type="number" id="quantity" min="1" max="10" class="form-control" required>
                 </div>
                </div>
 
@@ -218,7 +218,7 @@
 
         <button type="submit" class="btn btn-warning" id="btn">Order</button>
        
-      </div>
+       </div>
       </form>
       </div>
       </div>
