@@ -86,9 +86,14 @@ head #btn{
 }
 #order h2{
     text-align: center;
+    margin-top: 10px;
 }
 #col-5,#btn{
  width: 150px;
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
 }
 
   
