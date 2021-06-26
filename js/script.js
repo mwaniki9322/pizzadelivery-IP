@@ -30,6 +30,7 @@ var size=$('#size').val();
 var flavour=$('#flavour').val();
 var crust=$('#crust').val();
 var toppings=$('#toppings').val();
+var quantity=$('#quantity').val();
 
 if(size==='Small'){
     pizzaprice +=300;
