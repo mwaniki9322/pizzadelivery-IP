@@ -83,3 +83,22 @@ if(size==='Small'){
 
     });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+//jquery
+$("#order1").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#container-3").offset().top
+    }, 2000);
+});
