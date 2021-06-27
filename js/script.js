@@ -91,11 +91,5 @@ document.getElementById('display7').innerHTML=(pizzaprice+crustprice+toppingspri
 
 
 
-$('#btn3').click(function(){
-    $('#yourorder').show();
-})
-
-
-
     });
 });
