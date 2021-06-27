@@ -88,8 +88,16 @@ document.getElementById('display4').innerHTML=crust+"-"+crustprice;
 document.getElementById('display5').innerHTML=toppings+ "-"+ toppingsprice;
 document.getElementById('display6').innerHTML=quantity;
 document.getElementById('display7').innerHTML=(pizzaprice+crustprice+toppingsprice)*quantity
+document.getElementById('display8').innerHTML=result;
 
 
+
+
+
+//jquery
+var result=$('#checkout').click(function(){
+    prompt('Please Enter Your Location')
+})
 
     });
 });
