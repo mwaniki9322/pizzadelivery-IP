@@ -112,5 +112,26 @@ label{
 #message{
     height: 100px;
 }
+.card-title{
+    font-weight: bolder;
+    color: orange;
+}
+#contactus{
+
+}
+#col-7{
+    
+    font-size: 22px;
+}
+#yourorder{
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+}
+#yourorder table{
+}
+td{
+    padding-left: 30px;
+}
 
   
