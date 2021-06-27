@@ -1,21 +1,24 @@
-# AKAN NAME GENERATOR
+# PIZZAHUB
 
 #### Created by 
 [DENNIS MWANIKI](https://mwaniki9322.github.io/akannamesIP/)
 
 ## Description
-This is a web application that takes a user's birthday and calculates the day of the week they were born and depending on the result,it generates their Ghanaian Akan Name.In Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
+This is a web application for a business that allows the user to order pizza through it,with various options the user might want on his pizza.
 
 ## Application Features
-* Date of birth input
-* Gender selection
-* Form submit
+* Personal Details input
+* Flavour Selection
+* Size Selection
+* Toppings Selection
+* Crust Selection
+* Total Price Calculation
 
 ## Setup Process
 To run the web application on your server use the following steps.
 
-*  git clone https://github.com/mwaniki9322/akannamesIP.git
-*  cd akannamesIP.git
+*  git clone https://github.com/mwaniki9322/pizzadelivery-IP.git
+*  cd pizzadelivery-IP.git
 *  code .
 
 ## Technologies Used
@@ -23,31 +26,42 @@ To run the web application on your server use the following steps.
 * CSS
 * Javascript
 * Bootstrap
+* jQuery
 
 ## Behaviour Driven Development(BDD)
-### 1. Displays Form To Enter Date and Gender
-* INPUT: Users date of birth
-* INPUT: Users gender
-* OUTPUT: Displays users Akan name based on users input.
+### 1. Displays Form To Enter Pizza Choice
+* INPUT: Pizza Details
+* OUTPUT: Displays Pizza Details.
 
-### 2. Displays An Error Message If Date Of Birth Is Not Filled
+### 2. Displays An Error Message If Pizza Details Are Not Filled
 * INPUT: ""
-* OUTPUT:"Error Message". 
+* OUTPUT:"Please Fill Out This Field". 
 
+### 3. Displays Form To Enter User Details
+* INPUT: Credentials
+* OUTPUT: Displays Users Name.
 
-### 3. Displays An Error Message If Gender Is Not Selected 
+### 4. Displays An Error Message If User Credentials Are Not Filled 
 * INPUT: ""
-* OUTPUT: "Error Message".
+* OUTPUT: "Please Fill Out This Field".
 
-### 4 Clears Form and Reset the Message on Click
-* INPUT: "Click Reset Button"
-* OUTPUT: "Clears and Resets the Form"
+### 5 Displays Order on Click
+* INPUT: "Click Order Button"
+* OUTPUT: "Displays Your Order Details"
+
+### 6 Check Out 
+* INPUT: "Click Checkout Button"
+* OUTPUT: "Prompt Location ask"
+
+### 7 Location Fill 
+* INPUT: "Your Location"
+* OUTPUT: "Location"
 
 ### Known bugs
-* No bags reported.Raise a bug fix [here](https://github.com/mwaniki9322/akannamesIP.git)
+* No bags reported.Raise a bug fix [here](https://github.com/mwaniki9322/pizzadelivery-IP.git)
 
 ## Contact
 * If you wish to reach out incase of any issue you can pull request
 
 ### LICENSE
-https://github.com/mwaniki9322/akannamesIP/blob/main/LICENSE
+https://raw.githubusercontent.com/mwaniki9322/pizzadelivery-IP/Master/LICENSE
