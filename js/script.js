@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 //gather user input
 var firstnameinput=$('#fname').val();
-var lastnameinput=$('#sname').val();
+var lastnameinput=$('#lname').val();
 var emailinput=$('#email').val();
 var telinput=$('#tel').val();
 
@@ -81,24 +81,21 @@ if(size==='Small'){
         crustprice+=200;
 }
 
+document.getElementById('display1').innerHTML=newdets.firstname+' '+ newdets.lastname;
+document.getElementById('display2').innerHTML=flavour;
+document.getElementById('display3').innerHTML=size+ "-"+ pizzaprice;
+document.getElementById('display4').innerHTML=crust+"-"+crustprice;
+document.getElementById('display5').innerHTML=toppings+ "-"+ toppingsprice;
+document.getElementById('display6').innerHTML=quantity;
+document.getElementById('display7').innerHTML=(pizzaprice+crustprice+toppingsprice)*quantity
+
+
+
+$('#btn3').click(function(){
+    $('#yourorder').show();
+})
+
+
+
     });
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-//jquery
-$("#order1").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#container-3").offset().top
-    }, 2000);
 });
